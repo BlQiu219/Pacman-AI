@@ -78,7 +78,7 @@ img{
   height: 5.56%;
   width: 5.3%;
   background-color: black;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 #grid .seed {
@@ -88,31 +88,43 @@ img{
 #grid .blinky {
   /* background-color: red; */
   background-image: url('../images/blinky.png');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #grid .pinky {
   background-image: url('../images/pinky.png');
   z-index: 2;
+  background-position: center;
+  background-repeat: no-repeat;
   /* padding : 1px; */
 }
 
 #grid .wrinkly {
   background-image: url('../images/wrinkly.png');
   /* background-color: turquoise; */
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #grid .clyde {
   background-image: url('../images/clyde.png');
   /* background-color: orange; */
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #grid .pacman {
   background-image: url('../images/pacman.png');
   /* background-color: yellow; */
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #grid .route {
   background-color: yellowgreen;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #grid .wall {
@@ -129,6 +141,8 @@ img{
   /* background-color: grey; */
   border-radius: 50%;
   animation: blinker 1s linear infinite;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #game-over {
